@@ -4,7 +4,7 @@ Variables superglobales, sessions et cookies Dans tous les exercices, il faudra 
 
 ##Exercice 1 
 
-Faire une page HTML permettant de donner à l'utilisateur :
+***Faire une page HTML permettant de donner à l'utilisateur :***
 
     son User Agent
     son adresse ip
@@ -13,8 +13,9 @@ Faire une page HTML permettant de donner à l'utilisateur :
 
 ##Exercice 2 
 
-Sur la page index, faire un liens vers une autre page. Passer d'une page à l'autre le contenu des variables nom, prenom et age grâce aux sessions. Ces variables auront été définies directement dans le code.
-Il faudra afficher le contenu de ces variables sur la deuxième page.
+***Sur la page index, faire un liens vers une autre page. Passer d'une page à l'autre le contenu des variables nom, prenom 
+et age grâce aux sessions. Ces variables auront été définies directement dans le code.Il faudra afficher le contenu de 
+ces variables sur la deuxième page.***
 
 
 ##Exercice 3 
