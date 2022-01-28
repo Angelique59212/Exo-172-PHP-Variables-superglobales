@@ -20,6 +20,15 @@ $_SESSION['age'] = 33; ?>
     <a href="exo1.php">Exercice numéro 1</a><br>
     <a href="exo2.php"><?= $_SESSION['name'] . " " . $_SESSION['firstName'] . " " . $_SESSION['age'] . "ans"?></a>
 
+    <form action="exo3.php" method="post">
+        <label for="user-mail">Login</label>
+        <input type="email" id="user-mail" name="user-mail">
+
+        <label for="passwd"></label>
+        <input type="password" id="passwd" name="passwd">
+
+        <input type="submit" value="Login" id="login" name="login">
+    </form>
 </body>
 </html>
 

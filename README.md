@@ -20,7 +20,8 @@ ces variables sur la deuxième page.***
 
 ##Exercice 3 
 
-Faire un formulaire qui permet de récupérer le login et le mot de passe de l'utilisateur. A la validation du formulaire, stocker les informations dans un cookie.
+***Faire un formulaire qui permet de récupérer le login et le mot de passe de l'utilisateur. A la validation du 
+formulaire, stocker les informations dans un cookie.***
 
 
 ##Exercice 4 

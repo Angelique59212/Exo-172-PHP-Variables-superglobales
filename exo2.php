@@ -11,6 +11,7 @@ session_start(); ?>
     <title>Exo2</title>
 </head>
 <body>
+
     <h1>Contenu de variable sessions</h1>
     <?php
     if (isset($_SESSION['name']) && ($_SESSION['firstName']) && ($_SESSION['age'])) {
