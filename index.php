@@ -3,18 +3,13 @@ session_start();
 
 $_SESSION['name'] = 'Dehainaut';
 $_SESSION['firstName'] = 'Angélique';
-$_SESSION['age'] = 33; ?>
+$_SESSION['age'] = 33;
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Variables superglobales</title>
-</head>
-<body>
+$title = "Menu";
+require __DIR__ .'/partials/header.php'?>
+
+
+
     <h1>Menu</h1>
 
     <a href="exo1.php">Exercice numéro 1</a><br>
@@ -29,6 +24,8 @@ $_SESSION['age'] = 33; ?>
 
         <input type="submit" value="Login" id="login" name="login">
     </form>
-</body>
-</html>
 
+    <a href="exo4.php">Informations cookie</a><br>
+    <a href="exo5.php">Modification de contenu</a>
+
+<?= require __DIR__ .'/partials/footer.php'?>

@@ -1,16 +1,8 @@
 <?php
-session_start(); ?>
+session_start();
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exo2</title>
-</head>
-<body>
+$title = "Exo2";
+require __DIR__ .'/partials/header.php'?>
 
     <h1>Contenu de variable sessions</h1>
     <?php
@@ -19,8 +11,7 @@ session_start(); ?>
     }
     ?>
 
-</body>
-</html>
+<?= require __DIR__ .'/partials/footer.php'?>
 
 
 
